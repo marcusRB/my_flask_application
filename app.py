@@ -3,8 +3,8 @@ import joblib
 
 from flower_form import FlowerForm
 
-classifier_loaded = joblib.load("application_iris/saved_models/knn_iris_dataset.pkl")
-encoder_loaded = joblib.load("application_iris/saved_models/iris_label_encoder.pkl")
+classifier_loaded = joblib.load("saved_models/knn_iris_dataset.pkl")
+encoder_loaded = joblib.load("saved_models/iris_label_encoder.pkl")
 
 
 # prediction function
